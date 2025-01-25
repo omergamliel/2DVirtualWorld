@@ -1,0 +1,148 @@
+2025-01-25 09:45:57.8520 Info Message Template Auto Format enabled
+2025-01-25 09:45:57.8616 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 09:45:57.9053 Info Adding target FileTarget(Name=allfile)
+2025-01-25 09:45:57.9053 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 09:45:57.9053 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 09:45:57.9303 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:45:58.1483 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:51:15.4187 Info Shutdown() called. Logger closing...
+2025-01-25 09:51:15.4187 Info Closing old configuration.
+2025-01-25 09:51:15.4321 Info Logger has been closed down.
+2025-01-25 09:51:15.4321 Info Shutdown() called. Logger closing...
+2025-01-25 09:51:15.4321 Info Logger has been closed down.
+2025-01-25 09:56:39.8689 Info Message Template Auto Format enabled
+2025-01-25 09:56:39.8752 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 09:56:39.9051 Info Adding target FileTarget(Name=allfile)
+2025-01-25 09:56:39.9051 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 09:56:39.9051 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 09:56:39.9250 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:56:40.0568 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:56:40.0877 Info Shutdown() called. Logger closing...
+2025-01-25 09:56:40.0877 Info Closing old configuration.
+2025-01-25 09:56:40.1016 Info Logger has been closed down.
+2025-01-25 09:57:24.7847 Info Message Template Auto Format enabled
+2025-01-25 09:57:24.7847 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 09:57:24.8212 Info Adding target FileTarget(Name=allfile)
+2025-01-25 09:57:24.8212 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 09:57:24.8212 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 09:57:24.8416 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:57:24.9543 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:57:24.9778 Info Shutdown() called. Logger closing...
+2025-01-25 09:57:24.9778 Info Closing old configuration.
+2025-01-25 09:57:24.9918 Info Logger has been closed down.
+2025-01-25 09:58:10.8739 Info Message Template Auto Format enabled
+2025-01-25 09:58:10.8739 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 09:58:10.9276 Info Adding target FileTarget(Name=allfile)
+2025-01-25 09:58:10.9276 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 09:58:10.9276 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 09:58:10.9533 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:58:11.1165 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 09:58:11.1574 Info Shutdown() called. Logger closing...
+2025-01-25 09:58:11.1574 Info Closing old configuration.
+2025-01-25 09:58:11.1789 Info Logger has been closed down.
+2025-01-25 10:01:05.0373 Info Message Template Auto Format enabled
+2025-01-25 10:01:05.0438 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:01:05.0752 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:01:05.0752 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:01:05.0752 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:01:05.0955 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:01:05.1979 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:01:05.2234 Info Shutdown() called. Logger closing...
+2025-01-25 10:01:05.2234 Info Closing old configuration.
+2025-01-25 10:01:05.2388 Info Logger has been closed down.
+2025-01-25 10:01:11.1469 Info Message Template Auto Format enabled
+2025-01-25 10:01:11.1525 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:01:11.1864 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:01:11.1864 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:01:11.1864 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:01:11.2081 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:01:11.3126 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:01:11.3345 Info Shutdown() called. Logger closing...
+2025-01-25 10:01:11.3345 Info Closing old configuration.
+2025-01-25 10:01:11.3536 Info Logger has been closed down.
+2025-01-25 10:04:18.3041 Info Message Template Auto Format enabled
+2025-01-25 10:04:18.3108 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:04:18.3477 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:04:18.3477 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:04:18.3477 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:04:18.3691 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:04:18.4744 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:04:18.4819 Info Shutdown() called. Logger closing...
+2025-01-25 10:04:18.4819 Info Closing old configuration.
+2025-01-25 10:04:18.5073 Info Logger has been closed down.
+2025-01-25 10:08:55.3078 Info Message Template Auto Format enabled
+2025-01-25 10:08:55.3078 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:08:55.3405 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:08:55.3405 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:08:55.3405 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:08:55.3580 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:08:55.4469 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:08:55.4654 Info Shutdown() called. Logger closing...
+2025-01-25 10:08:55.4654 Info Closing old configuration.
+2025-01-25 10:08:55.4792 Info Logger has been closed down.
+2025-01-25 10:20:24.9892 Info Message Template Auto Format enabled
+2025-01-25 10:20:24.9892 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:20:25.0236 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:20:25.0236 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:20:25.0236 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:20:25.0421 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:20:25.1605 Info Shutdown() called. Logger closing...
+2025-01-25 10:20:25.1605 Info Closing old configuration.
+2025-01-25 10:20:25.1738 Info Logger has been closed down.
+2025-01-25 10:20:25.2110 Info AppDomain Shutting down. LogFactory closing...
+2025-01-25 10:20:25.2110 Info LogFactory has been closed.
+2025-01-25 10:35:09.5038 Info Message Template Auto Format enabled
+2025-01-25 10:35:09.5038 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:35:09.5368 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:35:09.5368 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:35:09.5368 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:35:09.5540 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:35:09.6674 Info Shutdown() called. Logger closing...
+2025-01-25 10:35:09.6674 Info Closing old configuration.
+2025-01-25 10:35:09.6674 Info Logger has been closed down.
+2025-01-25 10:35:09.7125 Info AppDomain Shutting down. LogFactory closing...
+2025-01-25 10:35:09.7138 Info LogFactory has been closed.
+2025-01-25 10:36:46.8518 Info Message Template Auto Format enabled
+2025-01-25 10:36:46.8581 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:36:46.8863 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:36:46.8863 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:36:46.8863 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:36:46.9035 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:36:47.0113 Info Shutdown() called. Logger closing...
+2025-01-25 10:36:47.0113 Info Closing old configuration.
+2025-01-25 10:36:47.0113 Info Logger has been closed down.
+2025-01-25 10:36:47.0542 Info AppDomain Shutting down. LogFactory closing...
+2025-01-25 10:36:47.0542 Info LogFactory has been closed.
+2025-01-25 10:44:02.7513 Info Message Template Auto Format enabled
+2025-01-25 10:44:02.7513 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:44:02.7833 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:44:02.7833 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:44:02.7833 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:44:02.8014 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:44:02.9175 Info Shutdown() called. Logger closing...
+2025-01-25 10:44:02.9175 Info Closing old configuration.
+2025-01-25 10:44:02.9416 Info Logger has been closed down.
+2025-01-25 10:44:02.9730 Info AppDomain Shutting down. LogFactory closing...
+2025-01-25 10:44:02.9730 Info LogFactory has been closed.
+2025-01-25 10:50:22.6689 Info Message Template Auto Format enabled
+2025-01-25 10:50:22.6689 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:50:22.7015 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:50:22.7015 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:50:22.7015 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:50:22.7191 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:50:22.8225 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:50:22.8412 Info Shutdown() called. Logger closing...
+2025-01-25 10:50:22.8412 Info Closing old configuration.
+2025-01-25 10:50:22.8412 Info Logger has been closed down.
+2025-01-25 10:50:27.8395 Info Message Template Auto Format enabled
+2025-01-25 10:50:27.8395 Info Loading assembly: NLog.Web.AspNetCore
+2025-01-25 10:50:27.8738 Info Adding target FileTarget(Name=allfile)
+2025-01-25 10:50:27.8738 Info Adding target FileTarget(Name=efCoreFile)
+2025-01-25 10:50:27.8738 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2025-01-25 10:50:27.8918 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 10:50:28.0945 Info Validating config: TargetNames=efCoreFile, lifetimeConsole, allfile, ConfigItems=48, FilePath=C:\projects\2DVirtualWorld\My2DWorldServer\bin\Debug\net6.0\NLog.config
+2025-01-25 11:07:57.9804 Info Shutdown() called. Logger closing...
+2025-01-25 11:07:57.9804 Info Closing old configuration.
+2025-01-25 11:07:57.9948 Info Logger has been closed down.
+2025-01-25 11:07:57.9948 Info Shutdown() called. Logger closing...
+2025-01-25 11:07:57.9948 Info Logger has been closed down.

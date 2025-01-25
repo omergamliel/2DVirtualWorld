@@ -17,16 +17,21 @@ namespace My2DWorldServer.Calls
 {
     public class GameCaller : IGameCaller
     {
-        private UsersSessionCollection _users;
-        private IDbContextFactory<SqlDbContext> _dbContextFactory;
-        private UserSession _session;
-        private IGameInformer _gameInformer;
-        public GameCaller(UsersSessionCollection users, UserSession session, IDbContextFactory<SqlDbContext> dbContextFactory, IGameInformer gameInformer)
+        private readonly UsersSessionCollection _users;
+        private readonly IDbContextFactory<SqlDbContext> _dbContextFactory;
+        private readonly UserSession _session;
+        private readonly IGameInformer _gameInformer;
+
+        public GameCaller(
+            UsersSessionCollection users, 
+            UserSession session, 
+            IDbContextFactory<SqlDbContext> dbContextFactory, 
+            IGameInformer gameInformer)
         {
-            _users = users;
-            _session = session;
-            _dbContextFactory = dbContextFactory;
-            _gameInformer = gameInformer;
+            _users = users ?? throw new ArgumentNullException(nameof(users));
+            _session = session ?? throw new ArgumentNullException(nameof(session));
+            _dbContextFactory = dbContextFactory ?? throw new ArgumentNullException(nameof(dbContextFactory));
+            _gameInformer = gameInformer ?? throw new ArgumentNullException(nameof(gameInformer));
         }
 
         public async Task OnAuthenticate(PacketAuthenticate packet)
@@ -35,7 +40,11 @@ namespace My2DWorldServer.Calls
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    UserEntity? user = dbContext.Users.FirstOrDefault(x => x.Username == packet.Username && x.Password == packet.Password);
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var user = await dbContext.Users
+                        .FirstOrDefaultAsync(x => x.Username == packet.Username && x.Password == packet.Password);
+
                     if (user != null)
                     {
                         if (!_users.Sessions.Any(x => x.UserId == user.Id))
@@ -66,22 +75,24 @@ namespace My2DWorldServer.Calls
 
         public async Task OnChangeServer(PacketChangeServer packet)
         {
-            if(_session.Logged)
+            if (_session.Logged)
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    ServerLocationEntity? server = await dbContext.Servers.FindAsync(packet.ServerId);
-                    UserEntity? user = await dbContext.Users.FindAsync(_session.UserId);
-                    if (server != null)
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var server = await dbContext.Servers.FindAsync(packet.ServerId);
+                    if (server == null) throw new ApplicationException("Invalid Server Id.");
+
+                    var user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (user == null) throw new ApplicationException("User not found.");
+
+                    if (_users.Sessions.Count(y => y.ServerId == server.Id) < server.ServerMaxPlayers)
                     {
-                        if (_users.Sessions.Count(y => y.ServerId == server.Id) < server.ServerMaxPlayers)
-                        {
-                            _session.ServerId = server.Id;
-                            await _gameInformer.SendPushUserInformation();
-                            await _gameInformer.SendMapChange(user?.LastLocationId ?? 1, 0);
-                        }
+                        _session.ServerId = server.Id;
+                        await _gameInformer.SendPushUserInformation();
+                        await _gameInformer.SendMapChange(user.LastLocationId ?? 1, 0);
                     }
-                    else throw new ApplicationException("Invalid Server Id.");
                 }
             }
             else throw new ApplicationException("Not authenticated.");
@@ -89,11 +100,15 @@ namespace My2DWorldServer.Calls
 
         public async Task OnChatMessage(PacketChatMessage packet)
         {
-            if(_session.Logged && _session.ServerId != null)
+            if (_session.Logged && _session.ServerId != null)
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    UserEntity? user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (user == null) throw new ApplicationException("User not found.");
+
                     await _gameInformer.SendPushUserMessageToRoom(user, packet.Message);
                 }
             }
@@ -105,48 +120,49 @@ namespace My2DWorldServer.Calls
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    UserEntity? user = await dbContext.Users.FindAsync(_session.UserId);
-                    if(user != null)
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (user == null) throw new ApplicationException("User not found.");
+
+                    var item = user.Inventory?.FirstOrDefault(x => x.ItemId == packet.ItemId)?.Item;
+                    if (item != null)
                     {
-                        ItemEntity? item = user.Inventory?.FirstOrDefault(x => x.ItemId == packet.ItemId)?.Item;
-                        if(item != null)
+                        var itemFieldFromUser = user.GetType().GetProperty(Enum.GetName(typeof(ItemType), item.Type) ?? "");
+                        if (itemFieldFromUser != null)
                         {
-                            PropertyInfo? itemFieldFromUser = user.GetType().GetProperty(Enum.GetName(typeof(ItemType), item.Type) ?? "");
-                            if(itemFieldFromUser != null)
+                            if ((itemFieldFromUser.GetValue(user) as int?) != item.Id)
                             {
-                                if((itemFieldFromUser.GetValue(user) as int?) != item.Id)
+                                itemFieldFromUser.SetValue(user, item.Id);
+                                await dbContext.UpdateFieldsAsync(user, itemFieldFromUser.Name);
+                                var playerEquip = new PacketPlayerEquipItem
                                 {
-                                    itemFieldFromUser.SetValue(user, item.Id);
-                                    await dbContext.UpdateFieldsAsync(user, itemFieldFromUser.Name);
-                                    PacketPlayerEquipItem playerEquip = new PacketPlayerEquipItem
+                                    PlayerName = user.Username,
+                                    Item = new EquipedLoadoutModel
                                     {
-                                        PlayerName = user?.Username,
-                                        Item = new EquipedLoadoutModel
-                                        {
-                                            Id = item.Id,
-                                            Type = item.Type,
-                                            FilePath = item.FilePath
-                                        }
-                                    };
-                                    await _users.Sessions.Where(x => x.ServerId == _session.ServerId && x.MapId == _session.MapId && x.GameId == null)
+                                        Id = item.Id,
+                                        Type = item.Type,
+                                        FilePath = item.FilePath
+                                    }
+                                };
+                                await _users.Sessions.Where(x => x.ServerId == _session.ServerId && x.MapId == _session.MapId && x.GameId == null)
                                     .ForEachAsyncCustom(x => x.WebSocket.SendAsync(playerEquip, CancellationToken.None));
-                                }
-                                else
+                            }
+                            else
+                            {
+                                itemFieldFromUser.SetValue(user, null);
+                                await dbContext.UpdateFieldsAsync(user, itemFieldFromUser.Name);
+                                var playerUnequip = new PacketPlayerUnequipItem
                                 {
-                                    itemFieldFromUser.SetValue(user, null);
-                                    await dbContext.UpdateFieldsAsync(user, itemFieldFromUser.Name);
-                                    PacketPlayerUnequipItem playerUnequip = new PacketPlayerUnequipItem
-                                    {
-                                        PlayerName = user?.Username,
-                                        ItemType = item.Type
-                                    };
-                                    await _users.Sessions.Where(x => x.ServerId == _session.ServerId && x.MapId == _session.MapId && x.GameId == null)
+                                    PlayerName = user.Username,
+                                    ItemType = item.Type
+                                };
+                                await _users.Sessions.Where(x => x.ServerId == _session.ServerId && x.MapId == _session.MapId && x.GameId == null)
                                     .ForEachAsyncCustom(x => x.WebSocket.SendAsync(playerUnequip, CancellationToken.None));
-                                }
-                            }                        
+                            }
                         }
-                        else throw new ApplicationException("Invalid equip item received.");
                     }
+                    else throw new ApplicationException("Invalid equip item received.");
                 }
             }
         }
@@ -157,14 +173,17 @@ namespace My2DWorldServer.Calls
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    GameEntity? game = await dbContext.Games.FindAsync(packet.GameId);
-                    if (game != null)
-                    {
-                        UserEntity? user = await dbContext.Users.FindAsync(_session.UserId);
-                        await _gameInformer.SendExitedRoomToAll(user);
-                        _session.GameId = packet.GameId;
-                        await _gameInformer.SendPlayerGameLoad(game);
-                    }
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var game = await dbContext.Games.FindAsync(packet.GameId);
+                    if (game == null) throw new ApplicationException("Game not found.");
+
+                    var user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (user == null) throw new ApplicationException("User not found.");
+
+                    await _gameInformer.SendExitedRoomToAll(user);
+                    _session.GameId = packet.GameId;
+                    await _gameInformer.SendPlayerGameLoad(game);
                 }
             }
         }
@@ -214,7 +233,7 @@ namespace My2DWorldServer.Calls
 
         public async Task OnRequestChangeServer(PacketRequestChangeServer packet)
         {
-            if(_session.Logged && _session.ServerId != null)
+            if (_session.Logged && _session.ServerId != null)
             {
                 await OnQuitServer();
                 await _gameInformer.SendAuthenticateConnection();
@@ -227,7 +246,9 @@ namespace My2DWorldServer.Calls
             {
                 using (var dbContext = await _dbContextFactory.CreateDbContextAsync())
                 {
-                    UserEntity? user = await dbContext.Users.FindAsync(_session.UserId);
+                    if (dbContext == null) throw new ApplicationException("Failed to create a database context.");
+
+                    var user = await dbContext.Users.FindAsync(_session.UserId);
                     if (user != null)
                     {
                         user.LastLocationId = _session.MapId;

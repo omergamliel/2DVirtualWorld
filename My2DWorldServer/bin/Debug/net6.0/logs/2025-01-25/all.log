@@ -1,0 +1,743 @@
+2025-01-25 09:45:57.9565|0|INFO|Program| Application init. 
+2025-01-25 09:45:58.2177|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager| User profile is available. Using 'C:\Users\omerg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-01-25 09:45:58.2871|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager| Creating key {a30a8187-f1c9-4015-a0ea-7835f7157c20} with creation date 2025-01-25 07:45:58Z, activation date 2025-01-25 07:45:58Z, and expiration date 2025-04-25 07:45:58Z. 
+2025-01-25 09:45:58.3041|0|INFO|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository| Writing data to file 'C:\Users\omerg\AppData\Local\ASP.NET\DataProtection-Keys\key-a30a8187-f1c9-4015-a0ea-7835f7157c20.xml'. 
+2025-01-25 09:45:58.3449|0|INFO|Microsoft.Hosting.Lifetime| Now listening on: http://localhost:80 
+2025-01-25 09:45:58.3449|0|INFO|Microsoft.Hosting.Lifetime| Application started. Press Ctrl+C to shut down. 
+2025-01-25 09:45:58.3449|0|INFO|Microsoft.Hosting.Lifetime| Hosting environment: Development 
+2025-01-25 09:45:58.3449|0|INFO|Microsoft.Hosting.Lifetime| Content root path: C:\projects\2DVirtualWorld\My2DWorldServer\ 
+2025-01-25 09:46:15.4662|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 09:46:15.5053|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 09:46:15.5422|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 09:46:15.5422|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 09:46:15.5422|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 09:46:15.5422|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 09:46:15.5422|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 09:46:15.6697|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 122.4543ms 
+2025-01-25 09:46:15.6697|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 09:46:15.6697|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 211.2563ms 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - 
+2025-01-25 09:46:15.7312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/My2DWorldServer.styles.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\obj\Debug\net6.0\scopedcss\bundle\My2DWorldServer.styles.css' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/css/site.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\css\site.css' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 - text/css 6.5301ms 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - - 200 - text/css 8.1309ms 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\jquery\dist\jquery.min.js' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/UnityLoader.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\UnityLoader.js' 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - - 200 - application/javascript 15.5483ms 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 - text/css 23.4792ms 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 - application/javascript 14.1120ms 
+2025-01-25 09:46:15.7459|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - - 200 - application/javascript 15.7276ms 
+2025-01-25 09:46:15.7701|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - 
+2025-01-25 09:46:15.7701|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/js/site.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\js\site.js' 
+2025-01-25 09:46:15.7701|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 - application/javascript 1.5470ms 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.json - - 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.json'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.json' 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.json - - - 200 - application/json 1.1839ms 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/favicon.ico - - 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\favicon.ico' 
+2025-01-25 09:46:15.9348|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/favicon.ico - - - 200 5430 image/x-icon 1.3936ms 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.jpg - - 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.jpg'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.jpg' 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.jpg - - - 200 17636 image/jpeg 1.6338ms 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 09:46:16.0434|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 09:46:16.0621|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.wasm.framework.unityweb'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.wasm.framework.unityweb' 
+2025-01-25 09:46:16.0621|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 200 524000 - 12.2259ms 
+2025-01-25 09:46:16.2190|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.data.unityweb'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.data.unityweb' 
+2025-01-25 09:46:16.2190|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 200 13250777 - 168.3931ms 
+2025-01-25 09:46:16.3310|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.wasm.code.unityweb'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.wasm.code.unityweb' 
+2025-01-25 09:46:16.3310|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 200 26554262 - 283.6207ms 
+2025-01-25 09:46:21.7563|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 09:46:21.7563|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 09:46:21.7736|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 09:46:23.7670|0|WARN|My2DWorldServer.Controllers.WsController| Access denied for user 'root'@'localhost' (using password: NO) MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 714
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 550
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 363
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 94
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 124
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 915
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 406
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 369
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlRelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method201(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at My2DWorldServer.Calls.GameCaller.OnAuthenticate(PacketAuthenticate packet) in C:\projects\2DVirtualWorld\My2DWorldServer\Calls\GameCaller.cs:line 38
+   at My2DWorldServer.Controllers.WsController.ProcessRequest(HttpContext httpContext, WebSocket webSocket) in C:\projects\2DVirtualWorld\My2DWorldServer\Controllers\WsController.cs:line 61
+2025-01-25 09:46:23.7814|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 2007.5511ms 
+2025-01-25 09:46:23.7814|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 09:46:23.7814|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 2026.0912ms 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 5.3402ms 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 09:46:25.7986|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 6.3564ms 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 7.4679ms 
+2025-01-25 09:46:26.1416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 7.4526ms 
+2025-01-25 09:46:26.1511|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 09:46:26.1511|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 9.7207ms 
+2025-01-25 09:47:22.0676|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 POST http://localhost/api/register application/json 111 
+2025-01-25 09:47:22.0676|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:22.0864|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Register", controller = "Register", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Register(My2DWorldShared.DTOs.RegisterRequestDTO) on controller My2DWorldServer.Controllers.RegisterController (My2DWorldServer). 
+2025-01-25 09:47:22.3904|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor| Executing ObjectResult, writing value of type 'System.String'. 
+2025-01-25 09:47:22.3904|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer) in 307.3696ms 
+2025-01-25 09:47:22.3904|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:22.3904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 POST http://localhost/api/register application/json 111 - 200 - text/plain;+charset=utf-8 327.4814ms 
+2025-01-25 09:47:25.6550|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 POST http://localhost/api/register application/json 112 
+2025-01-25 09:47:25.6550|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:25.6550|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Register", controller = "Register", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Register(My2DWorldShared.DTOs.RegisterRequestDTO) on controller My2DWorldServer.Controllers.RegisterController (My2DWorldServer). 
+2025-01-25 09:47:25.7300|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor| Executing ObjectResult, writing value of type 'System.String'. 
+2025-01-25 09:47:25.7300|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer) in 79.0184ms 
+2025-01-25 09:47:25.7300|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:25.7300|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 POST http://localhost/api/register application/json 112 - 200 - text/plain;+charset=utf-8 79.6962ms 
+2025-01-25 09:47:32.1161|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 POST http://localhost/api/register application/json 112 
+2025-01-25 09:47:32.1161|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:32.1161|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Register", controller = "Register", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Register(My2DWorldShared.DTOs.RegisterRequestDTO) on controller My2DWorldServer.Controllers.RegisterController (My2DWorldServer). 
+2025-01-25 09:47:32.1390|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor| Executing ObjectResult, writing value of type 'System.String'. 
+2025-01-25 09:47:32.1390|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer) in 22.6214ms 
+2025-01-25 09:47:32.1390|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.RegisterController.Register (My2DWorldServer)' 
+2025-01-25 09:47:32.1390|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 POST http://localhost/api/register application/json 112 - 200 - text/plain;+charset=utf-8 23.2213ms 
+2025-01-25 09:51:15.4086|0|INFO|Microsoft.Hosting.Lifetime| Application is shutting down... 
+2025-01-25 09:56:39.9442|0|INFO|Program| Application init. 
+2025-01-25 09:56:40.0638|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 09:57:24.8588|0|INFO|Program| Application init. 
+2025-01-25 09:57:24.9543|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 09:58:10.9743|0|INFO|Program| Application init. 
+2025-01-25 09:58:11.1287|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 10:01:05.1105|0|INFO|Program| Application init. 
+2025-01-25 10:01:05.2056|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 10:01:11.2239|0|INFO|Program| Application init. 
+2025-01-25 10:01:11.3126|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 10:04:18.3862|0|INFO|Program| Application init. 
+2025-01-25 10:04:18.4819|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 10:08:55.3721|0|INFO|Program| Application init. 
+2025-01-25 10:08:55.4537|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 53
+2025-01-25 10:20:25.0619|0|INFO|Program| Application init. 
+2025-01-25 10:20:25.1496|0|ERROR|Program| Application setup error. System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldShared.Data.SqlDbContext Lifetime: Scoped ImplementationType: My2DWorldShared.Data.SqlDbContext': Unable to activate type 'My2DWorldShared.Data.SqlDbContext'. The following constructors are ambiguous:
+Void .ctor(Microsoft.Extensions.Configuration.IConfiguration)
+Void .ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1[My2DWorldShared.Data.SqlDbContext])
+ ---> System.InvalidOperationException: Unable to activate type 'My2DWorldShared.Data.SqlDbContext'. The following constructors are ambiguous:
+Void .ctor(Microsoft.Extensions.Configuration.IConfiguration)
+Void .ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1[My2DWorldShared.Data.SqlDbContext])
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-01-25 10:35:09.5685|0|INFO|Program| Application init. 
+2025-01-25 10:35:09.6584|0|ERROR|Program| Application setup error. System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.) (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2025-01-25 10:36:46.9175|0|INFO|Program| Application init. 
+2025-01-25 10:36:47.0028|0|ERROR|Program| Application setup error. System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.) (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2025-01-25 10:44:02.8169|0|INFO|Program| Application init. 
+2025-01-25 10:44:02.9175|0|ERROR|Program| Application setup error. System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.) (Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Calls.IGameCaller Lifetime: Scoped ImplementationType: My2DWorldServer.Calls.GameCaller': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Calls.GameCaller'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: My2DWorldServer.Services.IGameInformer Lifetime: Scoped ImplementationType: My2DWorldServer.Services.GameInformer': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.IDbContextFactory`1[My2DWorldShared.Data.SqlDbContext]' while attempting to activate 'My2DWorldServer.Services.GameInformer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2025-01-25 10:50:22.7337|0|INFO|Program| Application init. 
+2025-01-25 10:50:22.8292|0|ERROR|Program| Application setup error. Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\projects\2DVirtualWorld\My2DWorldServer\Program.cs:line 61
+2025-01-25 10:50:27.9065|0|INFO|Program| Application init. 
+2025-01-25 10:50:28.1495|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager| User profile is available. Using 'C:\Users\omerg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-01-25 10:50:28.2236|0|INFO|Microsoft.Hosting.Lifetime| Now listening on: http://localhost:80 
+2025-01-25 10:50:28.2236|0|INFO|Microsoft.Hosting.Lifetime| Application started. Press Ctrl+C to shut down. 
+2025-01-25 10:50:28.2236|0|INFO|Microsoft.Hosting.Lifetime| Hosting environment: Development 
+2025-01-25 10:50:28.2236|0|INFO|Microsoft.Hosting.Lifetime| Content root path: C:\projects\2DVirtualWorld\My2DWorldServer\ 
+2025-01-25 10:51:10.2056|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 10:51:10.2260|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 10:51:10.2505|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 10:51:10.2505|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 10:51:10.2505|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 10:51:10.2505|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 10:51:10.2505|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 10:51:10.3371|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 84.0026ms 
+2025-01-25 10:51:10.3371|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 10:51:10.3401|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 135.2162ms 
+2025-01-25 10:51:10.3957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - 
+2025-01-25 10:51:10.3957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - 
+2025-01-25 10:51:10.3957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - 
+2025-01-25 10:51:10.3957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - 
+2025-01-25 10:51:10.3957|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - 
+2025-01-25 10:51:10.4011|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - 
+2025-01-25 10:51:10.4011|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/css/site.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\css\site.css' 
+2025-01-25 10:51:10.4011|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/My2DWorldServer.styles.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\obj\Debug\net6.0\scopedcss\bundle\My2DWorldServer.styles.css' 
+2025-01-25 10:51:10.4011|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - - 200 - text/css 15.5174ms 
+2025-01-25 10:51:10.4011|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 - text/css 18.5909ms 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/UnityLoader.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\UnityLoader.js' 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\lib\jquery\dist\jquery.min.js' 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/js/site.js'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\js\site.js' 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - - 200 - application/javascript 22.9340ms 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 - application/javascript 5.4174ms 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 - text/css 21.6889ms 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - - 200 - application/javascript 22.8757ms 
+2025-01-25 10:51:10.4173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 - application/javascript 22.4133ms 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.json - - 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/favicon.ico - - 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\favicon.ico' 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/favicon.ico - - - 200 5430 image/x-icon 1.7216ms 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.json was not modified 
+2025-01-25 10:51:10.5964|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.json - - - 304 - application/json 6.4158ms 
+2025-01-25 10:51:10.6077|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.jpg - - 
+2025-01-25 10:51:10.6077|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/Build/mygame.jpg'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\Build\mygame.jpg' 
+2025-01-25 10:51:10.6077|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.jpg - - - 200 17636 image/jpeg 1.3026ms 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.7305ms 
+2025-01-25 10:51:10.7172|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.5064ms 
+2025-01-25 10:51:10.8157|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 10:51:10.8157|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 10:51:10.8157|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4370ms 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 2.7923ms 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 10:52:17.3895|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 3.6361ms 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.8523ms 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.5305ms 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 10:52:17.5625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.3626ms 
+2025-01-25 10:52:32.5583|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 10:52:32.5583|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:52:32.5583|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 10:52:33.7686|0|WARN|My2DWorldServer.Controllers.WsController| Invalid username or password. System.ApplicationException: Invalid username or password.
+   at My2DWorldServer.Calls.GameCaller.OnAuthenticate(PacketAuthenticate packet) in C:\projects\2DVirtualWorld\My2DWorldServer\Calls\GameCaller.cs:line 65
+   at My2DWorldServer.Controllers.WsController.ProcessRequest(HttpContext httpContext, WebSocket webSocket) in C:\projects\2DVirtualWorld\My2DWorldServer\Controllers\WsController.cs:line 61
+2025-01-25 10:52:33.7828|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 1212.4936ms 
+2025-01-25 10:52:33.7828|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:52:33.7828|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 1224.9907ms 
+2025-01-25 10:52:45.6731|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 10:52:45.6731|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:52:45.6731|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 10:52:48.1990|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoom/webgl/object.map - - 
+2025-01-25 10:52:48.1990|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/GameFiles/Maps/ForestRoom/webgl/object.map'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\GameFiles\Maps\ForestRoom\webgl\object.map' 
+2025-01-25 10:52:48.1990|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoom/webgl/object.map - - - 200 - text/plain 6.1765ms 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 10:55:09.2883|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 10:55:09.2918|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 2.778ms 
+2025-01-25 10:55:09.2918|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 10:55:09.2918|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 3.6828ms 
+2025-01-25 10:55:09.3104|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 143639.7552ms 
+2025-01-25 10:55:09.3104|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:55:09.3104|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 143641.6255ms 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 1.2201ms 
+2025-01-25 10:55:09.5387|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.7874ms 
+2025-01-25 10:55:09.6508|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 10:55:09.6512|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 10:55:09.6512|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.5167ms 
+2025-01-25 10:55:21.4698|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 10:55:21.4698|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:55:21.4698|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 10:55:22.8361|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoom/webgl/object.map - - 
+2025-01-25 10:55:22.8361|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoom/webgl/object.map was not modified 
+2025-01-25 10:55:22.8361|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoom/webgl/object.map - - - 304 - text/plain 0.4601ms 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.6391ms 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 10:58:19.3141|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.0896ms 
+2025-01-25 10:58:19.3387|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 177872.8946ms 
+2025-01-25 10:58:19.3387|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:58:19.3387|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 177873.4348ms 
+2025-01-25 10:58:19.3905|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - 
+2025-01-25 10:58:19.3905|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /My2DWorldServer.styles.css was not modified 
+2025-01-25 10:58:19.3905|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - - 304 - text/css 0.5960ms 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.3973ms 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4164ms 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 10:58:19.6072|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.5323ms 
+2025-01-25 10:58:27.4019|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 10:58:27.4019|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 10:58:27.4019|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 10:58:29.2058|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 10:58:29.2058|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/GameFiles/Maps/ForestRoomHub/webgl/object.map'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\GameFiles\Maps\ForestRoomHub\webgl\object.map' 
+2025-01-25 10:58:29.2058|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 200 - text/plain 6.1752ms 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 1.2852ms 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:01:22.3428|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 2.2211ms 
+2025-01-25 11:01:22.3586|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 174966.4937ms 
+2025-01-25 11:01:22.3586|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:01:22.3586|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 174967.2655ms 
+2025-01-25 11:01:22.3932|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - 
+2025-01-25 11:01:22.3932|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified 
+2025-01-25 11:01:22.3932|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 0.3180ms 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /css/site.css was not modified 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 0.4886ms 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/UnityLoader.js was not modified 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/UnityLoader.js - - - 304 - application/javascript 0.4139ms 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /lib/jquery/dist/jquery.min.js was not modified 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 0.4615ms 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /js/site.js was not modified 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 0.4434ms 
+2025-01-25 11:01:22.4087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 0.4204ms 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.json - - 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.json was not modified 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.json - - - 304 - application/json 0.5787ms 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/favicon.ico - - 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /favicon.ico was not modified 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/favicon.ico - - - 304 - image/x-icon 0.4878ms 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.jpg - - 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.jpg was not modified 
+2025-01-25 11:01:22.5131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.jpg - - - 304 - image/jpeg 0.5186ms 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.5356ms 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4901ms 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:01:22.6055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.5157ms 
+2025-01-25 11:01:26.7904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:01:26.7904|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:01:26.7904|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:01:27.9974|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:01:27.9974|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:01:27.9974|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.7461ms 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.6572ms 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:09.7235|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.0574ms 
+2025-01-25 11:02:09.7463|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 42964.0461ms 
+2025-01-25 11:02:09.7463|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:09.7463|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 42964.6906ms 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.2932ms 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.5932ms 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:09.9736|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.5218ms 
+2025-01-25 11:02:14.1332|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:02:14.1332|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:14.1332|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:02:15.3558|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:02:15.3558|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:02:15.3558|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.3778ms 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.6461ms 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:17.6625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.1375ms 
+2025-01-25 11:02:17.6751|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 3546.4157ms 
+2025-01-25 11:02:17.6751|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:17.6751|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 3547.2751ms 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4142ms 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.3806ms 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:17.8327|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4014ms 
+2025-01-25 11:02:21.5238|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:02:21.5238|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:21.5238|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:02:22.5794|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:02:22.5794|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:02:22.5794|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.3946ms 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.49ms 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:34.0140|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 0.8556ms 
+2025-01-25 11:02:34.0272|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 12510.5126ms 
+2025-01-25 11:02:34.0272|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:34.0272|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 12511.1069ms 
+2025-01-25 11:02:34.2820|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:34.2820|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:34.2820|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4058ms 
+2025-01-25 11:02:34.2927|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:34.2927|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:34.2927|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.3834ms 
+2025-01-25 11:02:34.5389|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:34.5389|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:34.5389|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.3234ms 
+2025-01-25 11:02:37.8776|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:02:37.8776|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:37.8776|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:02:39.4827|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:02:39.4827|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:02:39.4827|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.3944ms 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.5766ms 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:42.4093|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.1189ms 
+2025-01-25 11:02:42.4217|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 4548.917ms 
+2025-01-25 11:02:42.4217|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:42.4217|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 4549.6420ms 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.2863ms 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.3056ms 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:42.6116|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4150ms 
+2025-01-25 11:02:49.1654|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:49.1654|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:49.1654|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.6528ms 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:49.1661|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.3411ms 
+2025-01-25 11:02:49.2512|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:49.2512|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:49.2512|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.3750ms 
+2025-01-25 11:02:49.4002|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:49.4002|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:49.4002|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.4495ms 
+2025-01-25 11:02:49.4019|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:49.4019|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:49.4019|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.2695ms 
+2025-01-25 11:02:52.7132|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:02:52.7135|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:52.7135|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:02:53.8175|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/BridgeConnector/webgl/object.map - - 
+2025-01-25 11:02:53.8175|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/GameFiles/Maps/BridgeConnector/webgl/object.map'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\GameFiles\Maps\BridgeConnector\webgl\object.map' 
+2025-01-25 11:02:53.8175|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/BridgeConnector/webgl/object.map - - - 200 - text/plain 4.1735ms 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.5255ms 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:02:57.9059|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.1420ms 
+2025-01-25 11:02:57.9179|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 5207.1972ms 
+2025-01-25 11:02:57.9179|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:02:57.9179|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 5207.7100ms 
+2025-01-25 11:02:57.9920|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:02:57.9920|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:02:57.9920|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.3801ms 
+2025-01-25 11:02:58.0766|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:02:58.0766|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:02:58.0766|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.3396ms 
+2025-01-25 11:02:58.1658|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:02:58.1658|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:02:58.1658|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4145ms 
+2025-01-25 11:03:07.8137|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:03:07.8137|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:03:07.8137|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:03:08.8500|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestToCity/webgl/object.map - - 
+2025-01-25 11:03:08.8578|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| Sending file. Request path: '/GameFiles/Maps/ForestToCity/webgl/object.map'. Physical path: 'C:\projects\2DVirtualWorld\My2DWorldServer\wwwroot\GameFiles\Maps\ForestToCity\webgl\object.map' 
+2025-01-25 11:03:08.8578|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestToCity/webgl/object.map - - - 200 - text/plain 7.8400ms 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.9054ms 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:04:16.9823|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.6566ms 
+2025-01-25 11:04:16.9970|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 69190.1205ms 
+2025-01-25 11:04:16.9970|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:04:16.9970|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 69190.6653ms 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4015ms 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.4505ms 
+2025-01-25 11:04:17.2396|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.4412ms 
+2025-01-25 11:04:21.9982|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:04:21.9982|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:04:21.9982|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:04:23.0367|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:04:23.0367|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:04:23.0367|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.2324ms 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.848ms 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:06:09.2852|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.4818ms 
+2025-01-25 11:06:09.2992|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 107305.9452ms 
+2025-01-25 11:06:09.2992|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:06:09.2992|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 107306.6779ms 
+2025-01-25 11:06:09.3383|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - 
+2025-01-25 11:06:09.3383|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /My2DWorldServer.styles.css was not modified 
+2025-01-25 11:06:09.3383|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/My2DWorldServer.styles.css?v=9obmtgpNbRndx8DluPbLxJjGFzfhVZ7bUBAcnuwjhT0 - - - 304 - text/css 0.4214ms 
+2025-01-25 11:06:09.5250|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:06:09.5250|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:06:09.5250|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.2793ms 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4198ms 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:06:09.5275|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.2436ms 
+2025-01-25 11:06:13.4973|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:06:13.4973|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:06:13.4973|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:06:14.6545|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:06:14.6545|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:06:14.6545|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.4424ms 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.4413ms 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:06:26.6081|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 0.9044ms 
+2025-01-25 11:06:26.6243|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 13131.9305ms 
+2025-01-25 11:06:26.6243|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:06:26.6243|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 13132.5408ms 
+2025-01-25 11:06:26.7601|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:06:26.7603|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:06:26.7603|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.2906ms 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.3473ms 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:06:26.7775|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.3538ms 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ - - 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint '/Index' 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing handler method My2DWorldServer.Pages.IndexModel.OnGet - ModelState is Valid 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed handler method OnGet, returned result . 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executing an implicit handler method - ModelState is Valid 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker| Executed page /Index in 0.7304ms 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint '/Index' 
+2025-01-25 11:07:06.8723|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 1.4161ms 
+2025-01-25 11:07:06.9546|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - 
+2025-01-25 11:07:06.9546|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.framework.unityweb was not modified 
+2025-01-25 11:07:06.9546|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.framework.unityweb - - - 304 - - 0.4568ms 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.data.unityweb was not modified 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.data.unityweb - - - 304 - - 0.2553ms 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /Build/mygame.wasm.code.unityweb was not modified 
+2025-01-25 11:07:07.0508|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/Build/mygame.wasm.code.unityweb - - - 304 - - 0.2906ms 
+2025-01-25 11:07:11.7948|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/ws/connect - - 
+2025-01-25 11:07:11.7948|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executing endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:07:11.7948|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Route matched with {action = "Get", controller = "Ws", page = ""}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller My2DWorldServer.Controllers.WsController (My2DWorldServer). 
+2025-01-25 11:07:13.0851|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request starting HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - 
+2025-01-25 11:07:13.0851|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware| The file /GameFiles/Maps/ForestRoomHub/webgl/object.map was not modified 
+2025-01-25 11:07:13.0851|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/GameFiles/Maps/ForestRoomHub/webgl/object.map - - - 304 - text/plain 0.4568ms 
+2025-01-25 11:07:54.6165|0|INFO|Microsoft.Hosting.Lifetime| Application is shutting down... 
+2025-01-25 11:07:57.9719|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker| Executed action My2DWorldServer.Controllers.WsController.Get (My2DWorldServer) in 46181.4092ms 
+2025-01-25 11:07:57.9719|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware| Executed endpoint 'My2DWorldServer.Controllers.WsController.Get (My2DWorldServer)' 
+2025-01-25 11:07:57.9719|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics| Request finished HTTP/1.1 GET http://localhost/ws/connect - - - 101 - - 46182.1117ms 

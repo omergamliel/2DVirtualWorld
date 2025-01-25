@@ -46,7 +46,15 @@ try
     builder.Services.AddScoped<UserSession>();
     builder.Services.AddScoped<IGameCaller, GameCaller>();
     builder.Services.AddScoped<IGameInformer, GameInformer>();
-    builder.Services.AddDbContextFactory<SqlDbContext>();
+builder.Services.AddDbContextFactory<SqlDbContext>(options =>
+{
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    );
+});
+
+
 
     builder.Services.AddRazorPages();
 

@@ -1,0 +1,613 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\My2DWorldServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\My2DWorldServer.6p4xfd2gdi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\UnityLoader.js",
+      "PackagePath": "staticwebassets\\Build\\UnityLoader.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\mygame.data.unityweb",
+      "PackagePath": "staticwebassets\\Build\\mygame.data.unityweb"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\mygame.jpg",
+      "PackagePath": "staticwebassets\\Build\\mygame.jpg"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\mygame.json",
+      "PackagePath": "staticwebassets\\Build\\mygame.json"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\mygame.wasm.code.unityweb",
+      "PackagePath": "staticwebassets\\Build\\mygame.wasm.code.unityweb"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\Build\\mygame.wasm.framework.unityweb",
+      "PackagePath": "staticwebassets\\Build\\mygame.wasm.framework.unityweb"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Games\\BounceBall\\android\\object.game",
+      "PackagePath": "staticwebassets\\GameFiles\\Games\\BounceBall\\android\\object.game"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Games\\BounceBall\\ios\\object.game",
+      "PackagePath": "staticwebassets\\GameFiles\\Games\\BounceBall\\ios\\object.game"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Games\\BounceBall\\webgl\\object.game",
+      "PackagePath": "staticwebassets\\GameFiles\\Games\\BounceBall\\webgl\\object.game"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Games\\BounceBall\\win\\object.game",
+      "PackagePath": "staticwebassets\\GameFiles\\Games\\BounceBall\\win\\object.game"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Coats\\CT_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Coats\\CT_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Coats\\CT_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Coats\\CT_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Coats\\CT_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Coats\\CT_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Coats\\CT_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Coats\\CT_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Facewear\\FCW_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Facewear\\FCW_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Facewear\\FCW_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Facewear\\FCW_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Facewear\\FCW_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Facewear\\FCW_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Facewear\\FCW_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Facewear\\FCW_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_02\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_02\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_02\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_02\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_02\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_02\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_02\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_02\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_03\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_03\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_03\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_03\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_03\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_03\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hairs\\HRS_03\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hairs\\HRS_03\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_02\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_02\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_02\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_02\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_02\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_02\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hats\\HT_02\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hats\\HT_02\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_02\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_02\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_02\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_02\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_02\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_02\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_02\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_02\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_03\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_03\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_03\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_03\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_03\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_03\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Hovers\\HVR_03\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Hovers\\HVR_03\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Neckwear\\NCW_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Neckwear\\NCW_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Neckwear\\NCW_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Neckwear\\NCW_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Neckwear\\NCW_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Neckwear\\NCW_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Neckwear\\NCW_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Neckwear\\NCW_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Pants\\PNT_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Pants\\PNT_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Pants\\PNT_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Pants\\PNT_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Pants\\PNT_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Pants\\PNT_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Pants\\PNT_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Pants\\PNT_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Shoes\\SHS_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Shoes\\SHS_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Shoes\\SHS_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Shoes\\SHS_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Shoes\\SHS_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Shoes\\SHS_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Shoes\\SHS_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Shoes\\SHS_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Tops\\TPS_01\\android\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Tops\\TPS_01\\android\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Tops\\TPS_01\\ios\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Tops\\TPS_01\\ios\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Tops\\TPS_01\\webgl\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Tops\\TPS_01\\webgl\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Items\\Tops\\TPS_01\\win\\object.item",
+      "PackagePath": "staticwebassets\\GameFiles\\Items\\Tops\\TPS_01\\win\\object.item"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\BridgeConnector\\android\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\BridgeConnector\\android\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\BridgeConnector\\ios\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\BridgeConnector\\ios\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\BridgeConnector\\webgl\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\BridgeConnector\\webgl\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\BridgeConnector\\win\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\BridgeConnector\\win\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoomHub\\android\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoomHub\\android\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoomHub\\ios\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoomHub\\ios\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoomHub\\webgl\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoomHub\\webgl\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoomHub\\win\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoomHub\\win\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoom\\android\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoom\\android\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoom\\ios\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoom\\ios\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoom\\webgl\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoom\\webgl\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestRoom\\win\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestRoom\\win\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestToCity\\android\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestToCity\\android\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestToCity\\ios\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestToCity\\ios\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestToCity\\webgl\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestToCity\\webgl\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Maps\\ForestToCity\\win\\object.map",
+      "PackagePath": "staticwebassets\\GameFiles\\Maps\\ForestToCity\\win\\object.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Npcs\\Edgar\\android\\object.npc",
+      "PackagePath": "staticwebassets\\GameFiles\\Npcs\\Edgar\\android\\object.npc"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Npcs\\Edgar\\ios\\object.npc",
+      "PackagePath": "staticwebassets\\GameFiles\\Npcs\\Edgar\\ios\\object.npc"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Npcs\\Edgar\\webgl\\object.npc",
+      "PackagePath": "staticwebassets\\GameFiles\\Npcs\\Edgar\\webgl\\object.npc"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\GameFiles\\Npcs\\Edgar\\win\\object.npc",
+      "PackagePath": "staticwebassets\\GameFiles\\Npcs\\Edgar\\win\\object.npc"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\projects\\2DVirtualWorld\\My2DWorldServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.My2DWorldServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.My2DWorldServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.My2DWorldServer.props",
+      "PackagePath": "build\\My2DWorldServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.My2DWorldServer.props",
+      "PackagePath": "buildMultiTargeting\\My2DWorldServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.My2DWorldServer.props",
+      "PackagePath": "buildTransitive\\My2DWorldServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

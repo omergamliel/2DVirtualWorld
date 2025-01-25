@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using My2DWorldShared.DataEntities;
 using Microsoft.EntityFrameworkCore.Design;
 using My2DWorldShared.Enums;
+using Microsoft.Extensions.Configuration; // נדרש בשביל IConfiguration
 
 namespace My2DWorldShared.Data
 {
@@ -31,21 +32,29 @@ namespace My2DWorldShared.Data
         public DbSet<MapNpcEntity> MapNpcs { get; set; }
         //
         public DbSet<ItemEntity> Items { get; set; }
-        //
+
         public DbSet<GameEntity> Games { get; set; }
 
-        public SqlDbContext(DbContextOptions<SqlDbContext> options) : base(options)
+        private readonly IConfiguration _configuration; // משתנה לשמירת IConfiguration
+
+        public SqlDbContext(DbContextOptions<SqlDbContext> options, IConfiguration configuration)
+            : base(options)
         {
+            _configuration = configuration;
         }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptions)
         {
-            base.OnConfiguring(dbContextOptions);
-
-            dbContextOptions.UseLazyLoadingProxies();
-
-            dbContextOptions.UseMySql("server=127.0.0.1;user=root;password=;database=robolandtests;", new MySqlServerVersion(new Version(8, 0, 27)));
+            if (!dbContextOptions.IsConfigured)
+            {
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                dbContextOptions.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            }
         }
+
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,0 +1,15 @@
+C:\projects\2DVirtualWorld\My2DWorldShared\bin\Debug\net6.0\My2DWorldShared.deps.json
+C:\projects\2DVirtualWorld\My2DWorldShared\bin\Debug\net6.0\My2DWorldShared.runtimeconfig.json
+C:\projects\2DVirtualWorld\My2DWorldShared\bin\Debug\net6.0\My2DWorldShared.dll
+C:\projects\2DVirtualWorld\My2DWorldShared\bin\Debug\net6.0\My2DWorldShared.pdb
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.csproj.AssemblyReference.cache
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.AssemblyInfoInputs.cache
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.AssemblyInfo.cs
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.csproj.CoreCompileInputs.cache
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.sourcelink.json
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.dll
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\refint\My2DWorldShared.dll
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.pdb
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\My2DWorldShared.genruntimeconfig.cache
+C:\projects\2DVirtualWorld\My2DWorldShared\obj\Debug\net6.0\ref\My2DWorldShared.dll
